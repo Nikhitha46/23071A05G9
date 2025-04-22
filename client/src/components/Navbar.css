@@ -1,0 +1,60 @@
+/* Navbar container styles */
+.navbar {
+    background: #222;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Logo styles */
+  .logo {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Navigation links container styles */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  /* Navigation link styles */
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  /* Navigation link hover effect */
+  .nav-links a:hover {
+    color: #00f2ff;
+  }
+  
+  /* Styles for the login and register links */
+  .nav-links .auth-links {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  /* Styles for login/register buttons */
+  .nav-links .auth-links a {
+    background-color: #00f2ff;
+    color: #222;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  /* Hover effect for login/register buttons */
+  .nav-links .auth-links a:hover {
+    background-color: #007bff;
+  }
+  
